@@ -1,0 +1,45 @@
+@import '../../_base';
+
+.new-book-item {
+  width: 300px;
+  background: #f9f9f9;
+  padding: 16px;
+  margin-right: 24px;
+  hr {
+    opacity: 0.3;
+  }
+  &-image-container {
+    height: 300px;
+    margin-bottom: 20px;
+
+    img {
+      height: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      object-fit: contain;
+    }
+  }
+
+  &-information {
+    display: flex;
+    justify-content: space-between;
+    .title-information {
+      margin-bottom: 4px;
+      span {
+        font-size: 12px;
+        opacity: 0.4;
+      }
+    }
+    .content-information {
+      span {
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
