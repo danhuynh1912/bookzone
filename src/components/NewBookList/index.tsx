@@ -43,7 +43,7 @@ const NewBookList = () => {
   return (
     <div className="new-book-comp">
       <div className="new-book-comp-left">
-        <p>Update New Book</p>
+        <p>Best seller</p>
       </div>
       <div className="new-book-comp-right">
         <Slider {...settings}>

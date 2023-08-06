@@ -8,6 +8,14 @@ const Item = () => {
         <img src="./assets/images/new-book1.jpg" />
       </div>
       <hr />
+      <div className="new-book-item-name">
+        <div className="title-information">
+          <span>Name</span>
+        </div>
+        <div className="content-information">
+          <span>Áo đôi Hello Kitty premium</span>
+        </div>
+      </div>
       <div className="new-book-item-information">
         <div>
           <div className="title-information">

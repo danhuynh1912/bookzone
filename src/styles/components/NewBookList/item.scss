@@ -32,8 +32,24 @@
     }
     .content-information {
       span {
-        font-weight: 700;
+        // font-weight: 700;
         font-size: 18px;
+      }
+    }
+  }
+
+  &-name {
+    .title-information {
+      margin-bottom: 4px;
+      span {
+        font-size: 12px;
+        opacity: 0.4;
+      }
+    }
+    .content-information {
+      span {
+        font-weight: 700;
+        font-size: 20px;
       }
     }
   }
